@@ -1,2 +1,8 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<% provide(:title, "Welcome") %>
+<h1>Home</h1>
+<p>Welcome to our home page.</p>
+
+<p><%= get_season() %></p>
+<p><%= get_random_number(100) %></p>
+<p><%= get_random_welcome() %></p>
+<p><%= count_to_10() %></p>
